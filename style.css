@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+    .main{
+        width: 100%;
+        background: linear-gradient(to top,rgba(138,100,70,0.5)50%, rgba(78,15,184,0.7)70%), url(resim.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+        background: #212121;
+        opacity: 0.5;
+    }
+
+    .icon{
+        width: 200px;
+        float: left;
+        
+        
+
+    }
+
+    .logo{
+        color: #f47e00;
+        font-size: 35px;
+        font-family: Arial;
+        float: left;
+        padding-left: 27px;
+        padding-top: 12px;
+        margin-top: 4px;
+        height: 72px;
+    }
+
+    .menu{
+        width: 400px;
+        float: left;
+        height: 72px;
+
+    }
+
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li{
+        list-style-type: none;
+        margin-left: 52px;
+        margin-top: 23px;
+        font-size: 14px;
+
+    }
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+}
+
+ul li a:hover{
+    color: #f47e00;
+}
+
+.arama{
+    width: 350px;
+    float: left;
+    margin-left: 250px;
+}
+
+.ara{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 40px;
+    background: transparent;
+    
+    margin-top: 14px;
+    color: white;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 44px;
+    background: #f47e00;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 15px;
+    transition: 2s ease;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color: #212121;
+}
+.btn:focus{
+    outline: none;
+}
+
+.ara:focus{
+outline: none;
+
+}
+
+.icerik{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+    position: relative;
+}
+
+.icerik h1{
+font-family: 'Franklin Gothic Medium';
+font-size: 50px;
+padding-left: 27px;
+margin-top: 10%;
+letter-spacing: 3px;
+}
+
+.icerik .par{
+    padding-left: 27px;
+    padding-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 10px;
+
+}
+
+.icerik .katilin{
+    width: 155px;
+    height: 40px;
+    background: #f47e00;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 28px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+
+.icerik .katilin a{
+    text-decoration: none;
+    color: #000;
+    transition: 4s ease;
+}
+.katilin:hover{
+    background-color: #fff;
+}
+
+.logo:hover{
+    transform: translate(25px, 25px);
+    transform: scale(2,1);
+    transform: rotate(30deg);
+    transition:all 3s ease-in-out;
+}
+
+
+
+

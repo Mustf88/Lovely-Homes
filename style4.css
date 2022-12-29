@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color:teal; 
+    opacity: 0.5;
+    
+    
+    
+}
+
+.logo{
+    float: left;
+    left: 0;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    
+}
+
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 45px;
+    font-size: 25px;
+}
+
+ul li a{
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color:tomato;
+}
+
+.menu ul a{
+color: antiquewhite;
+text-decoration: none;
+
+}
+
+.logo img{
+    height: 60px;
+    margin-top: 15px;
+    
+}
+h1{
+    color:teal;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: fantasy;
+    box-shadow: 15px;
+    letter-spacing: 12px;
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s ease-in;
+}
+
+h1:hover{
+    color: seagreen;
+}
+
+p{
+    color:teal
+    font-size: 18px;
+}
+
+.box{
+    border: 5px solid teal;
+    box-shadow: 5px 5px 15px 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30%;
+    margin-right: 30px;
+    align-items: center;
+    border-radius: 45px;
+    padding: 10px;
+    text-align: center;
+    text-indent: 15px;
+    transition: 0.5 ease;
+    }
+
+    .box:hover{
+        box-shadow: 15px 15px 25px 5px;
+  
+    }
+.box1{
+    float: left;
+    margin-left: 25px;
+}
+.box2{
+    float: left;
+}
+
+.box3{
+    float: left;
+}
+
+.box button{
+    background-color: teal;
+    color: antiquewhite;
+    text-align: center;
+    width: 125px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.box button:hover{
+    opacity: 0.5;
+}
+
+.iletisim{
+    border: 1px solid black;
+    height: 20px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
